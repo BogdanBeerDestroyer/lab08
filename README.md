@@ -1,26 +1,6 @@
+[![Build Status](https://travis-ci.org/BogdanBeerDestroyer/lab08.svg?branch=master)](https://travis-ci.org/BogdanBeerDestroyer/lab08)
 # Шумилишский ИУ8-22 Лабораторная 8
 
-
-## Tutorial
-
-
-```sh
-$ export GITHUB_USERNAME=BogdanBeerDestroyer
-```
-
-```
-$ cd ${GITHUB_USERNAME}/workspace
-$ pushd .
-$ source scripts/activate
-```
-
-```sh
-$ git clone https://github.com/${GITHUB_USERNAME}/lab07 lab08
-$ cd lab08
-$ git submodule update --init
-$ git remote remove origin
-$ git remote add origin https://github.com/${GITHUB_USERNAME}/lab08
-```
 В файле Dockerfile указываем операционную систему и версию
 
 ```sh
@@ -128,7 +108,7 @@ $ git add .travis.yml
 $ git commit -m"adding Dockerfile"
 $ git push origin master
 ```
-19. Нужно сделать Docker работающим внутри travis'а. Выполянем это.
+Нужно сделать Docker работающим внутри travis'а
 ```sh
 $ travis login --auto
 $ travis enable
