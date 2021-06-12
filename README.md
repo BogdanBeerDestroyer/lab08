@@ -1,26 +1,5 @@
 # Шумилишский ИУ8-22 Лабораторная 8
 
-
-## Tutorial
-
-
-```sh
-$ export GITHUB_USERNAME=BogdanBeerDestroyer
-```
-
-```
-$ cd ${GITHUB_USERNAME}/workspace
-$ pushd .
-$ source scripts/activate
-```
-
-```sh
-$ git clone https://github.com/${GITHUB_USERNAME}/lab07 lab08
-$ cd lab08
-$ git submodule update --init
-$ git remote remove origin
-$ git remote add origin https://github.com/${GITHUB_USERNAME}/lab08
-```
 В файле Dockerfile указываем операционную систему и версию
 
 ```sh
