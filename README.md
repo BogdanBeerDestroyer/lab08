@@ -108,7 +108,7 @@ $ git add .travis.yml
 $ git commit -m"adding Dockerfile"
 $ git push origin master
 ```
-Нужно сделать Docker работающим внутри travis'а. Выполянем это.
+Нужно сделать Docker работающим внутри travis'а
 ```sh
 $ travis login --auto
 $ travis enable
