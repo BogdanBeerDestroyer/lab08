@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/BogdanBeerDestroyer/lab08.svg?branch=master)](https://travis-ci.org/BogdanBeerDestroyer/lab08)
 # Шумилишский ИУ8-22 Лабораторная 8
 
 В файле Dockerfile указываем операционную систему и версию
