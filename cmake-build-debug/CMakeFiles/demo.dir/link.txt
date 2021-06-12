@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/demo.dir/demo/main.cpp.o -o demo  libprintd.a 
